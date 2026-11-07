@@ -1,9 +1,9 @@
 cask "benchmesh" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.29"
-  sha256 arm:   "40613ffa84f8ea166abf33e9273943c1a9b862e5655c53b428be0c7216a308e8",
-         intel: "a2ef47ff955f118049d7bf19657a748e6e8de85e76817996c2a7b076d73bf3eb"
+  version "0.1.30"
+  sha256 arm:   "80b091ebb79387c482e8641a1de2665734ffe3b7afb2ba3a943fc4a5a97c0ee3",
+         intel: "424f2d5e1f6b1e6e78378ad370ec3f068e6d64f10f08b2502ba1faebde000540"
 
   url "https://github.com/BenchMesh/benchmesh/releases/download/v#{version}/BenchMesh_#{version}_#{arch}.dmg",
       verified: "github.com/BenchMesh/benchmesh/"
